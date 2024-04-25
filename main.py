@@ -108,7 +108,7 @@ class Inventory(SetUp):
 #assigns values to the various classes and prints the intro
 inventory = Inventory()
 set_up = SetUp()
-print("Welcome to MURDER IN MANAYUNK. First things first lets get your name.\n")
+print("Welcome to MURDER IN MANAYUNK. First things first lets get your name.")
 name = input().strip()
 print(f"Welcome Detective {name}, here is your case for today:")
 intro = Intro()
