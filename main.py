@@ -7,7 +7,7 @@ Lab Section:    002
 
 CODE DESCRIPTION:
 This game takes place in Phialdelphia Pennsylvania. in this game, the Manayunk police department discovers that Jason Kecle has been killed
-and the user is tasked with finding ther killer. The user must move through various landmarks in the city of Philadelphia and gather clues.
+and the user is tasked with finding the killer. The user must move through various landmarks in the city of Philadelphia and gather clues.
 Once they feel that they have enough information the user travels to the crime scene and makes their final guess as to who the killer is.
 IMPORTANT NOTES: inputs are meant to be enter as lowercase, if inputs are capitalized the code will not work properly. Additionally,
 any location name that has "The" in it when the list of locations is given at the start of the game must be entered with "The" at the start
@@ -108,7 +108,7 @@ class Inventory(SetUp):
 #assigns values to the various classes and prints the intro
 inventory = Inventory()
 set_up = SetUp()
-print("Welcome to MURDER IN MANAYUNK. First things first lets get your name")
+print("Welcome to MURDER IN MANAYUNK. First things first lets get your name.\n")
 name = input().strip()
 print(f"Welcome Detective {name}, here is your case for today:")
 intro = Intro()
