@@ -7,6 +7,7 @@ Lab Section:    002
 
 CODE DESCRIPTION:
 This file contains all of the print statements that print out the intro to the game.
+https://github.com/abirchler22/CPSC-project-2/tree/main
 """
 #creat a class for all of the intro text
 class Intro:
